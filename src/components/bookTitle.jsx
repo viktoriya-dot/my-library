@@ -1,15 +1,18 @@
-import { MoreVert } from '@mui/icons-material'
+
 import React from 'react'
 import styles from './bookItem.module.sass'
+import PopoverTitle from './popoverTitle'
+
 
 
 const BookTitle  = (props) => {
+
   return (
     <div className={styles.titleWrapper}>
         <p className={styles.twoLine}>
           {props.title}
         </p>
-        <MoreVert  style={{color:'#474747'}}/>
+        <PopoverTitle />
     </div>
   )
 }

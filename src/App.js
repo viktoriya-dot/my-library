@@ -1,8 +1,9 @@
 
+// import {ThemeProvider} from '@mui/material';
 import './App.css';
 import BookItem from './components/bookItem';
 import Slider from './components/swiper';
-import data from './state'
+import data from './state';
 
 
 
