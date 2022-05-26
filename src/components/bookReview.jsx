@@ -1,9 +1,9 @@
 import Button from '@mui/material/Button';
 
-const BookReview = () => {
+const BookReview = (props) => {
   return (
     <div>
-        <Button variant="outlined">ПРОЧИТАНО</Button>
+        <Button onClick={() => props.changeStatusRead(true)} variant="outlined">ПРОЧИТАНО</Button>
     </div>
   )
 }

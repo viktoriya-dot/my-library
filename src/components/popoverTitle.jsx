@@ -19,7 +19,17 @@ export default function PopoverTitle() {
 
     return (
       <div>
-        <Button aria-describedby={id} variant="contained" onClick={handleClick}>
+        <Button
+            sx={{bgcolor: 'inherit', boxShadow: 'none',
+            ":hover": {
+                bgcolor: 'inherit',
+                boxShadow: 'none',
+                padding: 0,
+                },
+            }}
+            aria-describedby={id}
+            variant="contained"
+            onClick={handleClick}>
             <MoreVert  style={{color:'#474747'}}/>
         </Button>
         <Popover

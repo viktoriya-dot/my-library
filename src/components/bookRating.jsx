@@ -4,20 +4,16 @@ import Rating from '@mui/material/Rating';
 import Typography from '@mui/material/Typography';
 
 
-const BookRating = () => {
-  const [value, setValue] = React.useState(3);
+
+const BookRating = (props) => {
+  const [value, setValue] = React.useState(0);
   return (
     <div>
-        <Box
-            sx={{
-            '& > legend': { mt: 2 },
-            }}
-         />
-      <Typography component="legend">Моя оценка</Typography>
-      <Rating
-        name="simple-controlled"
+      <Typography sx={{mb:'10px'}} component="legend">Моя оценка</Typography>
+      <Rating sx={{color:'#FFDE6B', mb:'10px'}}
+        disabled={props.readed?false:'disabled'}
         value={value}
-        onChange={(event, newValue) => {
+        onChange={(event , newValue ) => {
           setValue(newValue);
         }}
       />

@@ -1,10 +1,11 @@
-import React from 'react'
+
 
 const BookImage = (props) => {
 
   return (
 
-    <div style={{
+    <div
+        style={{
         backgroundImage: `url(${props.image})`,
         backgroundRepeat: 'no-repeat',
         height:'300px', backgroundSize: 'cover',

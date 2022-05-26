@@ -34,7 +34,7 @@ const data = {
         { id: 7, image: Image7, title: 'Страдания юного  Вертера', author: 'Гёте', pages: 166, days: 0 },
         { id: 8, image: Image8, title: 'Что такое жизнь?', author: 'Эрвин Шредингер', pages: 257, days: 0 },
         { id: 9, image: Image9, title: 'К западу от Эдема', author: 'Гарри Гаррисон', pages: 527, days: 0 },
-        { id: 10, image: Image10, title: 'Технология успеха', author: 'Стив Андреас Чарльз Фолкнер', pages: 390, days: 0 },
+        { id: 10, image: Image10, title: 'Технология успеха', author: 'Чарльз Фолкнер', pages: 390, days: 0 },
         { id: 11, image: Image11, title: 'Андроид Каренина', author: 'Бен Х. Уинтерс', pages: 365, days: 0 },
         { id: 12, image: Image12, title: '1984 и все эссе разных лет', author: 'Джордж Оруэлл', pages: 355, days: 0 },
         { id: 13, image: Image10, title: 'Игра по крупному', author: 'Бинод Чаудхари', pages: 457, days: 0 },

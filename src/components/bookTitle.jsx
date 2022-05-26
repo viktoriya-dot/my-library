@@ -9,7 +9,7 @@ const BookTitle  = (props) => {
 
   return (
     <div className={styles.titleWrapper}>
-        <p className={styles.twoLine}>
+        <p>
           {props.title}
         </p>
         <PopoverTitle />

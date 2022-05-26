@@ -13,10 +13,18 @@
     gap: 15px
 
 
-.bookItemBlock
+.bookItem
     width: 200px
+    height: 670px
     padding: 10px
+    border: 1px solid #FFDE6B
+    border-radius: 10px
+
+.bookImageBlock
     filter: grayscale(100%)
+
+.bookImageActive
+    filter: grayscale(0)
 
 .titleWrapper
     font-size: 18px
@@ -26,8 +34,11 @@
     align-items: center
     padding-top: 10px
 
-.twoLine
-    white-space: pre-line
+
+.like
+    &:hover
+        color: #FFDE6B
+        fill: #FFDE6B
 
 .MuiPopoverRoot
     background-color: #fff
